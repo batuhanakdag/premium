@@ -1,0 +1,46 @@
+::selection {
+  background-color: #cc2b5e;
+  color: #fff;
+}
+::-moz-selection {
+  background-color: #cc2b5e;
+  color: #fff;
+}
+
+.load-circle .one,
+.header .navbar-nav > li > a.current,
+.fixed-header .navbar-nav > li > a:hover,
+.fixed-header .navbar-nav > li > a.current,
+.fixed-header .navbar-nav > li > a.current:hover,
+.m-btn:hover,
+.social-link li a:hover,
+.section-heading h2:after,
+.section-heading h2:before,
+.feature:after,
+.feature-with-icon .feature-icon i,
+.feature-with-icon:hover,
+.feature-with-icon-02 .feature-icon i,
+.feature-with-icon-02:hover,
+.owl-dots .owl-dot:hover,
+.owl-dots .owl-dot.active,
+.bg-color,
+.bg-color-after:after,
+.page-item.active .page-link,
+.type-post .title-bar label a,
+.widget .widget-tagcloud a:hover,
+.widget .widget-title:before {
+	background: #cc2b5e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.blog-item h3 a,
+.feature .feature-icon i,
+.pagination .page-link {
+	color: #cc2b5e;
+}
+
+.load-circle,
+.widget .widget-tagcloud a:hover{
+	border-color: #cc2b5e;
+}
